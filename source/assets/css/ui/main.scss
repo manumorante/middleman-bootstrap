@@ -1,8 +1,9 @@
 // Main
 
-@import "../libs/mm-breakpoints";
-@import "../libs/mixins";
-@import "../vars";
+@import "../config";
+@import "../lib/mm.breakpoints-1.2";
+@import "../lib/mixins";
+
 
 *,
 *:after,

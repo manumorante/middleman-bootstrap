@@ -5,7 +5,8 @@ module ApplicationHelper
   # =============================================
   # analytics_code
   # Print the stardard Google Analytics code.
-  # #06/08/2013
+  # Manu Morante @unavezfui
+  # Last update: 06/08/2013
   # Example: <%= analytics_code 'UA-XXXXXXXX-X' %>
   # =============================================
   def analytics_code code, domain
@@ -26,33 +27,31 @@ module ApplicationHelper
 
   # =============================================
   # google_font
-  # Print the script to import a google font
-  # #06/08/2013
+  # Print the script to import a Google Font
+  # Manu Morante @unavezfui
+  # Last update: 17/10/2014
   # =============================================
-  def google_font families, type
+  def google_font(families, type='')
 
     case type
 
       # JS
       when 'js'
-        out = "<script>
-      WebFontConfig = {
-          google: { families: [ '#{families}' ] }
-      };
-      (function () {
-          var wf = document.createElement('script');
-          wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-              '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-          wf.type = 'text/javascript';
-          wf.async = 'true';
-          var s = document.getElementsByTagName('script')[0];
-          s.parentNode.insertBefore(wf, s);
-      })();
-  </script>"
+        out = "<script>WebFontConfig = {google: { families: [ '#{families}' ] }};
+          (function () {
+            var wf = document.createElement('script');
+            wf.src = ('https:' == document.location.protocol ? 'https' : 'http')
+            + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+          })();
+        </script>"
 
       # CSS
       else
-        out = "<link href='http://fonts.googleapis.com/css?family=#{families}' rel='stylesheet' type='text/css'>"
+        out = "<link href='//fonts.googleapis.com/css?family=#{families}' rel='stylesheet' type='text/css'>"
 
     end
 

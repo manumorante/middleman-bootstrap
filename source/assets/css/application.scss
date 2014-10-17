@@ -1,7 +1,12 @@
+// Application
+
 // Libs
-@import "libs/bootstrap";
+@import "lib/bootstrap";
 @import "ui/header";
 
+// Modules
 @import "ui/main";
 
+// Pages
+@import "ui/home";
 

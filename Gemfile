@@ -8,3 +8,6 @@ gem 'middleman', '~>3.1.6'
 platforms :mri_18 do
   gem 'ruby18_source_location'
 end
+
+# Github GH Pages (https://github.com/neo/middleman-gh-pages)
+gem 'middleman-gh-pages'
