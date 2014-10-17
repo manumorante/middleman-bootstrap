@@ -6,13 +6,12 @@ Middleman + Bootstrap + Initializr
 - **Bootstrap** http://getbootstrap.com/
 - **Initializr** http://initializr.com/
 
-## Middleman Github Pages
+## Host on Github
 
-[Github Pages](http://pages.github.com) hosts static sites for free, Middleman Github 
-Pages brings the two together. Middleman Github Pages is just a few rake tasks 
+[Github Pages](http://pages.github.com) hosts static sites for free. Middleman Github Pages is just a few rake tasks 
 that automate the process of deploying a Middleman site to Github Pages.
 
-## Publish your site on Github
+## How to Publish your site
 
 ```shell
 bundle exec rake publish
