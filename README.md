@@ -12,26 +12,14 @@ Middleman + Bootstrap + Initializr
 Pages brings the two together. Middleman Github Pages is just a few rake tasks 
 that automate the process of deploying a Middleman site to Github Pages.
 
-## Options
-
-You cannot deploy your site if you have uncommitted changes. You can
-override this with the `ALLOW_DIRTY` option:
+## Publish your site on Github
 
 ```shell
-bundle exec rake publish ALLOW_DIRTY=true
+bundle exec rake publish
 ```
 
-You can append a custom suffix to commit messages on the build branch:
+More options on [Github Pages](http://pages.github.com)
 
-```shell
-bundle exec rake publish COMMIT_MESSAGE_SUFFIX="--skip-ci"
-```
-
-You can change the remote that you deploy to:
-
-```shell
-bundle exec rake publish REMOTE_NAME=upstream
-```
 
 ## Contributing
 
