@@ -2,9 +2,20 @@
 
 Middleman + Bootstrap + Initializr
 
-- **Middleman** http://middlemanapp.com/
-- **Bootstrap** http://getbootstrap.com/
-- **Initializr** http://initializr.com/
+### Middleman
+
+Middleman is a static site generator using all the shortcuts and tools in modern web development.
+http://middlemanapp.com/
+
+### Bootstrap
+
+Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
+http://getbootstrap.com/
+
+### HTML 5 Boilerplate
+
+HTML5 Boilerplate helps you build fast, robust, and adaptable web apps or sites. Kick-start your project with the combined knowledge and effort of 100s of developers, all in one little package.
+http://html5boilerplate.com/
 
 ## Host on Github
 
