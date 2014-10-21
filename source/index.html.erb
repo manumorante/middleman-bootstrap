@@ -3,17 +3,23 @@ title: Home
 ---
 
 <div class="jumbotron">
-  <h1>Middleman Bootstrap Initializr</h1>
+  <h1>Static Boosted</h1>
 
-  <p><%= lorem.paragraph %></p>
+  <h3>Tests</h3>
+
+  <p>Middleman: <%= lorem.words(3) %></p>
+  <p>Bootstrap: <span class="label label-default">label</span></p>
+  <p>AngularJS: 2 + 2 = {{2+2}}</p>
+
+  <h3>Links</h3>
 
   <ul>
     <li><%= link_to 'Middleman', 'http://middlemanapp.com/' %></li>
     <li><%= link_to 'Bootstrap', 'http://www.getbootstrap.com/' %></li>
-    <li><%= link_to 'Initializr', 'http://www.initializr.com/' %></li>
+    <li><%= link_to 'AngularJS', 'http://www.angularjs.org/' %></li>
   </ul>
 
-  <p><%= lorem.sentence %></p>
+  <hr/>
 
   <p>
     <%= link_to 'View on GitHub »', 'https://github.com/manumorante/', class: 'btn btn-lg btn-primary', role: 'button' %>
