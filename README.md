@@ -1,6 +1,6 @@
 # Static Boosted
 
-Static Boosted is a Middleman and Bootstrap kick-start project based on HTML 5 Bolierplate.
+Static Boosted is a Middleman, AngularJS and Bootstrap kick-start project based on HTML 5 Bolierplate.
 
 ### Middleman
 
