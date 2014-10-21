@@ -20,8 +20,8 @@ compass_config do |config|
   # config.sass_options = { :debug => true, :debug_info => true, :line_comments => true }
 
   # BUILD MODE
-  # config.output_style = :compressed
-  config.output_style = :compact
+  config.output_style = :compressed
+  # config.output_style = :compact
   config.sass_options = { :debug => false, :debug_info => false, :line_comments => false }
 end
 
