@@ -1,6 +1,6 @@
 # Static Boosted
 
-Middleman + Bootstrap + Initializr
+Static Boosted is a Middleman and Bootstrap kick-start project based on HTML 5 Bolierplate.
 
 ### Middleman
 
