@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <%= partial 'head' %>
+</head>
+<body class="<%= page_classes %>" ng-app>
+<%= partial 'browsehappy' %>
+<%= partial 'header' %>
+
+<div class="container">
+  <%= yield %>
+</div>
+
+<%= partial 'footer' %>
+<%= javascript_include_tag  'application' %>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<%= analytics_code 'UA-XXXXX-X', 'yourdomain.com' %>
+</body>
+</html>
