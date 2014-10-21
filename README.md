@@ -2,6 +2,8 @@
 
 Static Boosted is a Middleman, AngularJS and Bootstrap kick-start project based on HTML 5 Bolierplate.
 
+## Technologies
+
 - **Middleman** Middleman is a static site generator using all the shortcuts and tools in modern web development. http://middlemanapp.com/
 
 - **Bootstrap** Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. http://getbootstrap.com/
@@ -10,6 +12,13 @@ Static Boosted is a Middleman, AngularJS and Bootstrap kick-start project based 
 
 - **HTML 5 Boilerplate** HTML5 Boilerplate helps you build fast, robust, and adaptable web apps or sites. Kick-start your project with the combined knowledge and effort of 100s of developers, all in one little package.
 http://html5boilerplate.com/
+
+## Versions
+
+- Middleman v3.1.6
+- AngularJS v1.2.26
+- Bootstrap v3.1.1
+- HTML 5 Boilerplate v4.3.0
 
 ## Host on Github
 
