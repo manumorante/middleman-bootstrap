@@ -7,7 +7,7 @@ set :js_dir, 'assets/js'
 set :images_dir, 'assets/img'
 set :fonts__dir, 'assets/fonts'
 set :relative_links, true
-set :partials_dir, 'layouts/_partials'
+# set :partials_dir, 'layouts/_partials'
 
 
 
@@ -17,12 +17,11 @@ set :partials_dir, 'layouts/_partials'
 
 compass_config do |config|
   # DEBUG MODE
-  # config.sass_options = { :debug => true, :debug_info => true, :line_comments => true }
+  config.sass_options = { :debug => true, :debug_info => true, :line_comments => true }
 
   # BUILD MODE
-  config.output_style = :compressed
-  # config.output_style = :compact
-  config.sass_options = { :debug => false, :debug_info => false, :line_comments => false }
+  # config.output_style = :compressed
+  # config.sass_options = { :debug => false, :debug_info => false, :line_comments => false }
 end
 
 ###
