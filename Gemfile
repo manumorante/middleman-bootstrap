@@ -2,7 +2,7 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-gem 'middleman', '~>3.1.6'
+gem 'middleman', '~>3.3.7'
 
 # Cross-templating language block fix for Ruby 1.8
 platforms :mri_18 do
