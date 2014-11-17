@@ -1,0 +1,34 @@
+scss_files: 'source/assets/css/**/*.scss'
+exclude: 'source/assets/css/lib/_bootstrap.scss'
+
+linters:
+  NameFormat:
+    enabled: true
+    convention: 'BEM'
+
+  SelectorFormat:
+    enabled: true
+    convention: 'BEM'
+
+  NestingDepth:
+    enabled: true
+    max_depth: 3
+
+  HexNotation:
+    enabled: false
+    style: lowercase # or 'uppercase'
+
+  FinalNewline:
+    enabled: false
+    present: true
+
+ # --
+
+  Comment:
+    enabled: false
+
+  DebugStatement:
+    enabled: true
+
+  DeclarationOrder:
+    enabled: true
