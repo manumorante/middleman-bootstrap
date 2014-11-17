@@ -2,22 +2,19 @@
  * Mixins
  */
 
-
 /**
  * General Optimize text Legibility, font antialiased
  */
-@mixin optimize-legibility{
+@mixin optimize-legibility {
   *,
   *:after,
   *::before {
+    -webkit-font-smoothing: antialiased;
     outline: 0;
     text-rendering: optimizeLegibility;
     -webkit-text-stroke: 0;
-    -webkit-font-smoothing: antialiased;
   }
 }
-
-
 
 /**
  * Border box
@@ -26,12 +23,10 @@
   @include box-sizing(border-box);
 }
 
-
-
 /**
  * Font face
  */
-@mixin font-face($family, $url){
+@mixin font-face($family, $url) {
   @font-face {
     font-family: $family;
     src: font-url('#{$url}.eot');
@@ -44,8 +39,6 @@
     font-style: normal;
   }
 }
-
-
 
 /**
  * Vendor Prefixes
