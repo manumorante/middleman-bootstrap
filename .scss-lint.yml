@@ -16,19 +16,9 @@ linters:
 
   HexNotation:
     enabled: false
-    style: lowercase # or 'uppercase'
 
   FinalNewline:
     enabled: false
-    present: true
 
- # --
-
-  Comment:
+   Comment:
     enabled: false
-
-  DebugStatement:
-    enabled: true
-
-  DeclarationOrder:
-    enabled: true
