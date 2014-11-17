@@ -1,0 +1,10 @@
+/**
+ * Layout
+ */
+@import '../config';
+@import '../lib/mm.breakpoints-1.2';
+@import '../lib/mixins';
+
+html {
+  @include base-page;
+}
