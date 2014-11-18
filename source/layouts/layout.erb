@@ -3,17 +3,12 @@
 <head>
   <%= partial 'layouts/head' %>
 </head>
-<body class="<%= page_classes %>" ng-app>
-<%= partial 'layouts/browsehappy' %>
+<body class="<%= page_classes %>" ng-app="myApp">
+<%= partial 'layouts/browse-happy' %>
 <%= partial 'layouts/header' %>
-
-<div class="container">
-  <%= yield %>
-</div>
-
+<%= yield %>
 <%= partial 'layouts/footer' %>
 <%= javascript_include_tag  'application' %>
-
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <%= analytics_code 'UA-XXXXX-X', 'yourdomain.com' %>
 </body>
