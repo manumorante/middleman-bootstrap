@@ -1,57 +1,72 @@
-/**
- * Config
- */
+// #######
+// Config
+// #######
 
 
-/**
- * Colors
- */
-$base-background-color: #fff;
-$base-text-color:       #555;
-$brand-color:           #f5a; // Example
 
-/**
- * Fonts
- */
-$brand-font: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-$base-font-size:    16px;
-$base-line-height:  24px;
-$line-height-ratio: $base-line-height / $base-font-size;
+//== Colors
+//
+//## Gray and brand colors for use across Bootstrap.
+
+$brand-primary:         darken(#428bca, 6.5%);
+$brand-success:         #5cb85c;
+$brand-info:            #5bc0de;
+$brand-warning:         #f0ad4e;
+$brand-danger:          #d9534f;
 
 
-/**
- * Font-sizes (in pixels). Refer to relevant sections for their implementations.
- */
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+$font-family-base: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+$font-size-base:    16px;
+
+$line-height-base:        1.428571429;
+$line-height-computed:    floor(($font-size-base * $line-height-base));
+
+
 $giga-size:         96px;
 $mega-size:         72px;
 $kilo-size:         48px;
 
-$h1-size:           36px; // .alpha
-$h2-size:           30px; // .beta
-$h3-size:           24px; // .gamma
-$h4-size:           20px; // .delta
-$h5-size:           16px; // .epsilon
-$h6-size:           14px; // .zeta
+$font-size-h1:      36px; // .alpha
+$font-size-h2:      30px; // .beta
+$font-size-h3:      24px; // .gamma
+$font-size-h4:      20px; // .delta
+$font-size-h5:      16px; // .epsilon
+$font-size-h6:      14px; // .zeta
 
-$milli-size:        12px;
-$micro-size:        10px;
+$font-size-milli:   12px;
+$font-size-micro:   10px;
+
+$font-size-large:   $font-size-h4;
+$font-size-small:   $font-size-milli;
 
 
-/**
- * Spacing
- * https://github.com/inuitcss/settings.defaults/blob/master/_settings.defaults.scss
- */
-$spacing:           $base-line-height;
+
+//== Spacing
+//
+//## https://github.com/inuitcss/settings.defaults/blob/master/_settings.defaults.scss
+$spacing:           $line-height-computed;
 $spacing--small:    round($spacing / 2);
 $spacing--large:    round($spacing * 2);
 
 
-/**
- *  Media queries breakpoints
- *  Define the breakpoints at which your layout will change, adapting to different screen sizes.
- */
-$screen-min: 320px;   // Extra small / phone
-$screen-xs:  480px;   // Extra small screen / phone
-$screen-sm:  768px;   // Small / tablet
-$screen-md:  992px;   // Medium / desktop
-$screen-lg: 1200px;   // Large / wide desktop
+
+//== Media queries breakpoints
+//
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+
+// Extra small screen / phone
+$screen-xs-min:              480px;
+
+// Small screen / tablet
+$screen-sm-min:              768px;
+
+// Medium screen / desktop
+$screen-md-min:              992px;
+
+// Large screen / wide desktop
+$screen-lg-min:              1200px;
