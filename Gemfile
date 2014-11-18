@@ -11,3 +11,6 @@ end
 
 # Github GH Pages (https://github.com/neo/middleman-gh-pages)
 gem 'middleman-gh-pages'
+
+# Twitter Bootstrap
+gem 'bootstrap-sass', :require => false
