@@ -21,7 +21,7 @@ $brand-danger:          #d9534f;
 //## Font, line-height, and color for body text, headings, and more.
 
 $font-family-base: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-$font-size-base:    16px;
+$font-size-base:    14px;
 
 $line-height-base:        1.428571429;
 $line-height-computed:    floor(($font-size-base * $line-height-base));
@@ -35,8 +35,8 @@ $font-size-h1:      36px; // .alpha
 $font-size-h2:      30px; // .beta
 $font-size-h3:      24px; // .gamma
 $font-size-h4:      20px; // .delta
-$font-size-h5:      16px; // .epsilon
-$font-size-h6:      14px; // .zeta
+$font-size-h5:      18px; // .epsilon
+$font-size-h6:      16px; // .zeta
 
 $font-size-milli:   12px;
 $font-size-micro:   10px;
