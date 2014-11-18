@@ -10,4 +10,4 @@ platforms :mri_18 do
 end
 
 # Github GH Pages (https://github.com/neo/middleman-gh-pages)
-gem 'middleman-gh-pages'
+# gem 'middleman-gh-pages'
