@@ -1,5 +1,5 @@
 scss_files: 'source/assets/css/**/*.scss'
-exclude: 'source/assets/css/lib/_bootstrap.scss'
+#exclude: 'source/assets/css/lib/**'
 
 linters:
   NameFormat:
@@ -20,5 +20,5 @@ linters:
   FinalNewline:
     enabled: false
 
-   Comment:
+  Comment:
     enabled: false
