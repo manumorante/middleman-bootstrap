@@ -14,3 +14,6 @@ gem 'middleman-gh-pages'
 
 # Twitter Bootstrap
 gem 'bootstrap-sass', :require => false
+
+# Font-Awesome Middleman
+gem 'font-awesome-middleman'
