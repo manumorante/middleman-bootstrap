@@ -13,8 +13,8 @@
     vxs: 300px, vsm: 480px, vmd: 620px, vlg: 750px
   );
 
-  $media-hor: map-get($media, 'h# {$hor}');
-  $media-ver: map-get($media, 'v# {$ver}');
+  $media_hor: map-get($media, 'h# {$hor}');
+  $media_ver: map-get($media, 'v# {$ver}');
 
   // Only
   @if $only {
@@ -30,15 +30,15 @@
 
   // Horizontal and Vertical
   } @else if $hor and $ver {
-    @media (min-width:  $media-hor) and (min-height: $media-ver) { @content; }
+    @media (min-width:  $media_hor) and (min-height: $media_ver) { @content; }
 
   // Horizontal
   } @else if $hor {
-    @media (min-width:  $media-hor) { @content; }
+    @media (min-width:  $media_hor) { @content; }
 
   // Vertical
   } @else if $ver {
-    @media (min-height: $media-ver) { @content; }
+    @media (min-height: $media_ver) { @content; }
   }
 }
 

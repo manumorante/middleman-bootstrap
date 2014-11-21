@@ -40,7 +40,7 @@ configure :build do
   ignore '/helpers/*'
   ignore '/*.md'
 
-  # You can auto ignore files using the prefix "_". Examples: "_your-file.scss", "_your-file.js" or "_your-file.html.erb"
+  # You can auto ignore files using the prefix "_".
   ignore '/assets/js/ui/*'
   ignore '/assets/css/lib/*'
   ignore '/assets/css/ui/*'

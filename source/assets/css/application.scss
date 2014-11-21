@@ -1,16 +1,14 @@
-//
-// Application
-//
+/**
+ * Application
+ */
+
 @import 'compass/css3';
 @import 'compass/reset';
 @import 'config';
-@import 'lib/mm.breakpoints-1.2';
+@import 'lib/mm.breakpoints';
 @import 'lib/mixins';
 @import "font-awesome";
 @import 'bootstrap';
-
-// Modules
-// --
 
 // Pages
 @import 'ui/layout';

@@ -1,7 +1,9 @@
-// Lib (3rd Party libraries)
-// = require lib/_jquery-1.11.1.min
-// = require lib/_angular-1.2.26.min
-// = require bootstrap
-
-// Modules (common JS in this project)
-// = require ui/nav
+/**
+ * Lib (3rd Party libraries)
+ * = require jquery
+ * = require lib/_angular
+ * = require bootstrap
+ *
+ * Modules (common JS in this project)
+ * = require ui/app
+ */
