@@ -1,8 +1,8 @@
 /**
  * Lib (3rd Party libraries)
- * = require jquery
- * = require lib/_angular
- * = require bootstrap
+ * = require lib/_jquery-1.11.1
+ * = require lib/_angular-1.2.26
+ * = require lib/_bootstrap-sprockets
  *
  * Modules (common JS in this project)
  * = require ui/app
