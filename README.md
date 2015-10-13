@@ -15,7 +15,7 @@ http://html5boilerplate.com/
 
 ## Versions
 
-- Middleman `v3.1.6`
+- Middleman `v3.3.7`
 - AngularJS `v1.2.26`
 - Bootstrap `v3.1.1`
 - HTML 5 Boilerplate `v4.3.0`
