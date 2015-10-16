@@ -34,6 +34,14 @@ bundle exec rake publish
 More options on [Github Pages](http://pages.github.com)
 
 
+## CSS Lint
+
+CSS Lint file config `/.scss-lint.yml`
+
+[CSS Lint command line](https://github.com/CSSLint/csslint/wiki/Command-line-interface)
+
+
+
 ## Contributing
 
 1. Fork it
